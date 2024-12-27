@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+h1, p, h2, figure {
+    margin: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+figure {
+    display: inline-block;
+    align-content: center;
+}
+
+figure:hover {
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+}
+
+figcaption {
+    max-width: 250px;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
