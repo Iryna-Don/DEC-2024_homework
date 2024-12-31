@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/2075742031/de/foto/wei%C3%9Fer-pfeil-flie%C3%9Ft-auf-w%C3%BCrfeltreppenform-vor-blauem-hintergrund-gesch%C3%A4ftswegkonzept-minimaler.jpg?s=612x612&w=0&k=20&c=Otb4UZKdCI_xD3V2pkaAubjuX1b4oMJjrfo3ELGz0oo=");
+        background-size: cover;
+        color: #e2dddc;
+}
+
+.white {
+    color: #e2dddc;
+}
+
+/*    =============================== main ================================*/
+main {
+    padding-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 8vw;
+    text-shadow: 2px 2px 10px rgba(246, 213, 78, 0.66);
+    letter-spacing: 1.5vw;
+}
+
+main p {
+    padding: 2vw;
+    text-shadow: 2px 2px 10px rgba(246, 213, 78, 0.66);
+}
+
+button {
+    margin-top: 2vw;
+    height: 3vw;
+    width: 12vw;
+    border: #095090;
+    transition: 1s;
+    font-size: 1vw;
+}
+
+button:hover {
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+    transform: scale(1.1);
+    transition: 1s;
+}

@@ -1,0 +1,26 @@
+main {
+    padding: 2vw;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("https://media.istockphoto.com/id/1662723458/photo/abstract-aerial-view-of-sand-and-water-patterns.webp?a=1&b=1&s=612x612&w=0&k=20&c=RUBkFyA1RbWtwdfP5e9ju5IuHbQy0vX0h3VVDv31On0=");
+}
+
+.coach {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+
+iframe, audio {
+    width: 25vw;
+    height: 15vw;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+}

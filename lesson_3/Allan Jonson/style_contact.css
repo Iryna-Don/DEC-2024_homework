@@ -1,0 +1,27 @@
+main {
+    padding-top: 5vw;
+    background-image: url("https://media.istockphoto.com/id/1050211400/de/foto/business-leer-vorlage-f%C3%BCr-das-layout-einladung-gru%C3%9Fkarte-f%C3%B6rderung-poster-gutschein.jpg?s=612x612&w=0&k=20&c=QNrmK0iOmpgbKT4lm-S2rmJvHV3VzLy_aodQ8feS_jU=");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 3vw;
+    margin-right: 1vw;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1vw;
+    width: 40vw;
+}
+main div  p{
+font-style: italic;
+    font-size: 1vw;
+}
+
+

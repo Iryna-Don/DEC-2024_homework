@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_3.3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            height: 300vh;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Forum", serif;
+        }
+
+        .wrap {
+            height: 100%;
+        }
+
+        section {
+            height: 33.33%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2vw;
+        }
+
+        #first_block {
+            background-image: url(https://media.istockphoto.com/id/1288372542/vector/watercolor-ink-art-background-pink.jpg?s=612x612&w=0&k=20&c=oF8I2_GvdnmFPUG2xnNobe0WGm66wU92N1OBGbkLlxY=);
+            background-size: cover;
+        }
+
+        #second_block {
+            background-image: url(https://media.istockphoto.com/id/841998556/vector/fire.jpg?s=612x612&w=0&k=20&c=k5XO7ttI503_NTQ5v4efvxjlmbk0ClEcwcDFPx6fQ9E=);
+            background-size: cover;
+        }
+
+        #third_block {
+            background-image: url(https://media.istockphoto.com/id/1298797835/vector/blue-sky-watercolor-background.jpg?s=612x612&w=0&k=20&c=_1_W5O0gLISYiZsTir6eSR3OncdJzE841kIi66Z8wHU=);
+            background-size: cover;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 50px;
+            color: black;
+            margin: 4vw;
+        }
+
+        a:hover {
+            transform: scale(1.4);
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            font-size: 2.5vw;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.3vw;
+        }
+
+        .arrow_down {
+            rotate: 90deg;
+        }
+
+        .arrow_up {
+            rotate: -90deg;
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <section id="first_block">
+        <h2>Section Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ducimus maxime minus rerum! Distinctio
+            eaque enim impedit labore minima omnis sapiente similique vel! A aliquam aperiam cumque cupiditate
+            exercitationem facilis illum impedit ipsa ipsum, iste magni, maxime molestias nisi numquam obcaecati optio
+            provident qui quibusdam recusandae saepe, tempora totam voluptate. Deleniti ea error labore necessitatibus
+            possimus provident sint soluta tenetur ut! Ab aperiam architecto delectus dolor eos excepturi maxime nemo
+            possimus quas temporibus. Ab ad aliquam animi at aut blanditiis doloribus eos facilis harum illum laudantium
+            magnam maiores modi neque officiis quia quidem rem, rerum vero voluptates. Atque, commodi soluta.</p>
+        <a class="arrow_down" href="#second_block">&#10163;</a>
+
+    </section>
+    <section id="second_block">
+        <a class="arrow_up" href="#first_block">&#10163;</a>
+        <h2>Section Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam aperiam aspernatur blanditiis corporis
+            cupiditate doloremque dolorum ducimus est eveniet exercitationem facilis laboriosam laudantium minima minus
+            mollitia, natus nesciunt nisi numquam odio officia quas ratione recusandae rem saepe sed tempore temporibus
+            voluptatem voluptatibus voluptatum. Dolor iure minus necessitatibus perferendis vero! Cupiditate dolorem
+            eaque facere omnis quibusdam? Aliquam aliquid aperiam architecto at aut, consequatur dolorem doloribus
+            dolorum eaque eius eos error et expedita facere fugit id ipsam, iure labore magnam magni maxime natus
+            nesciunt nulla provident quae quaerat quam quas quasi ratione rem saepe sapiente totam voluptatum. Aperiam
+            error omnis porro!</p>
+        <a class="arrow_down" href="#third_block">&#10163;</a>
+    </section>
+    <section id="third_block">
+        <a class="arrow_up" href="#second_block">&#10163;</a>
+        <h2>Section Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, at deserunt dolores doloribus ipsum
+            necessitatibus nihil perspiciatis sapiente tenetur. Aliquid corporis excepturi natus obcaecati pariatur
+            quasi rem! Ab aliquid amet architecto assumenda at autem consectetur eaque error excepturi exercitationem
+            illo iusto maiores non nostrum, nulla officia omnis, praesentium quaerat quam qui quibusdam quo reiciendis
+            reprehenderit sequi soluta totam, velit. Accusamus adipisci aperiam architecto assumenda consectetur
+            corporis, fuga, nobis numquam qui quis ratione rem sunt ullam vitae, voluptates. Adipisci deserunt eum iste
+            repellat velit! Ab ad aliquid autem, debitis deleniti dolores excepturi labore mollitia odio omnis qui, quo
+            quod repellendus unde.</p>
+    </section>
+</div>
+</body>
+</html>
