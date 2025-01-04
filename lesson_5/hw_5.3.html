@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_5.3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .wrap {
+            width: 100%;
+            height: 40%;
+        }
+
+        img {
+            width: 450px;
+            border-bottom: 15px dashed #1e2720;
+
+        }
+
+        .running_man {
+            position: relative;
+            animation: runToSide 4s linear infinite;
+
+        }
+
+        @keyframes runToSide {
+            0% {
+                transform: translateX(-30vw);
+            }
+            100% {
+                transform: translateX(100vw);
+            }
+        }
+
+        #first_pic {
+            opacity: 0;
+            animation: goingMan 0.4s linear infinite;
+            position: absolute;
+            z-index: 1;
+        }
+
+        #second_pic {
+            animation: runningMan 0.4s linear infinite;
+            position: absolute;
+            z-index: 2;
+
+        }
+
+        @keyframes runningMan {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+
+            }
+        }
+
+        @keyframes goingMan {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+
+            }
+        }
+
+        p {
+            text-align: center;
+            font-size: 2rem;
+            font-family: "Rubik Distressed", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #f4b499;
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="running_man">
+        <img id="first_pic" src="new_img/foni-papik-pro-ehts-p-kartinki-idushchii-chelovek-na-prozrachnom-6.png"
+             alt="running_man">
+        <img id="second_pic" src="new_img/foni-papik-pro-egpu-p-kartinki-idushchii-chelovek-na-prozrachnom-2.png"
+             alt="going_man">
+    </div>
+</div>
+<p>Loading...</p>
+
+</body>
+</html>

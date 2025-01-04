@@ -5,7 +5,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>hw_5.1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
     <style>
         body {
             width: 100vw;
@@ -25,24 +28,91 @@
             border-radius: 50%;
             border-top: 2px solid green;
             border-bottom: 2px solid green;
-            width: 35vw;
-            height: 30vh;
-            animation: spinner 6s linear infinite;
+            width: 25vw;
+            height: 25vh;
+            animation: spinner 8s linear infinite;
         }
 
-        p {
+        .text {
+            display: flex;
             position: absolute;
-            font-size: 3vw;
+            font-size: 1.7rem;
+            animation: change_color 8s linear infinite;
+            font-family: "Henny Penny", serif;
+            font-weight: 400;
         }
+        @keyframes change_color {
+            0% {
+                color: red;
+            }
+            25% {
+                color: orangered;
+            }
+            50% {
+                color: yellowgreen;
+            }
+            75% {
+                color: green;
+            }
+            100% {
+                color: cornflowerblue;
+            }
+        }
+        .first_dot {
+            animation: first_dot 3s linear infinite;
+        }
+
+        @keyframes first_dot {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .second_dot {
+            animation: second_dot 3s linear infinite;
+        }
+
+        @keyframes second_dot {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .third_dot {
+            animation: third_dot 3s linear infinite;
+        }
+
+        @keyframes third_dot {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
 
         @keyframes spinner {
-
             0% {
                 transform: rotate(0deg);
                 border: 2vw solid red;
                 border-bottom: 2px solid red;
             }
-
             25% {
                 border: 2vw solid orange;
                 border-bottom: 2px solid orange;
@@ -57,8 +127,8 @@
             }
             100% {
                 transform: rotate(720deg);
-                border: 2vw solid violet;
-                border-bottom: 2px solid violet;
+                border: 2vw solid cornflowerblue;
+                border-bottom: 2px solid cornflowerblue;
             }
         }
     </style>
@@ -66,8 +136,14 @@
 </head>
 <body>
 <div class="wrap">
-    <div class="loader"></div>
-    <p>Loading...</p>
+    <div class="loader">
+    </div>
+    <div class="text">
+        <p>Loading</p>
+        <p class="first_dot">.</p>
+        <p class="second_dot">.</p>
+        <p class="third_dot">.</p>
+    </div>
 </div>
 </body>
 </html>

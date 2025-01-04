@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_5.2</title>
+    <style>
+        .wrap{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle_1 {
+            border: 16px solid white;
+            border-radius: 50%;
+            border-top: 16px solid #47e8ff;
+            width: 300px;
+            height: 300px;
+            animation: first_spin 5s linear infinite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle_2 {
+            border: 16px solid white;
+            border-radius: 50%;
+            border-top: 16px solid yellow;
+            width: 250px;
+            height: 250px;
+            animation: second_spin 5s linear infinite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle_3 {
+            border: 16px solid white;
+            border-radius: 50%;
+            border-top: 16px solid green;
+            width: 200px;
+            height: 200px;
+            animation: third_spin 5s linear infinite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .circle_4 {
+            border: 16px solid white;
+            border-radius: 50%;
+            border-top: 16px solid #ff0070;
+            width: 150px;
+            height: 150px;
+            animation: fourth_spin 5s linear infinite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .circle_5 {
+            border: 16px solid white;
+            border-radius: 50%;
+            border-top: 16px solid orange;
+            width: 100px;
+            height: 100px;
+            animation: fifth_spin 5s linear infinite;
+        }
+
+
+        @keyframes first_spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes second_spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes third_spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes fourth_spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes fifth_spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrap">
+    <div class="circle_1">
+        <div class="circle_2">
+            <div class="circle_3">
+                <div class="circle_4">
+                    <div class="circle_5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
