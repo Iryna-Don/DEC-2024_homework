@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1E1E1E;
+}
+.wrap {
+    padding: 36px 50px;
+    /*width: 1440px;*/
+    width: 100vw;
+    font-family: "Bowlby One", serif;
+    color: #E9E3DC;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 74px;
+}
+
+nav > div {
+    padding: 21px 26px 22px 27px;
+    font-size: 18px;
+    line-height: 96.896%;
+    text-transform: uppercase;
+}
+
+nav > div:hover {
+    background-color: #B3A0CD;
+    color: #1E1E1E;
+}
+
+.centerPosition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*======================= h1 ==========================*/
+h1 {
+    width: 1255px;
+    text-align: center;
+    font-size: 107px;
+    line-height: 88.896%;
+    letter-spacing: -2.142px;
+    text-transform: uppercase;
+    padding-bottom: 33px;
+}
+
+/*===================== imgBurgers =======================*/
+.imgBurgers {
+    width: 700px;
+    height: 396px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+}
+
+.leftBurger, .rightBurger {
+    width: 311px;
+    height: 295px;
+}
+
+.centerBurger {
+    width: 420px;
+    height: 396px;
+    position: absolute;
+    bottom: -10%;
+    left: 20%;
+}
+
+/*============== section with text ========================*/
+.sectionWithText {
+    margin-top: 67px;
+    width: 1340px;
+    height: 369px;
+    border-radius: 30px;
+    border: 4px solid #1E1E1E;
+    background: #D1EF53;
+    padding: 100px 149px 100px 109px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 64px;
+}
+
+.sectionWithText > h2 {
+    color: #1E1E1E;
+    font-size: 70px;
+    line-height: 88.896%;
+    letter-spacing: -1.4px;
+    text-transform: uppercase;
+}
+
+.sectionWithText p {
+    color: #1E1E1E;
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 139.896%;
+    letter-spacing: -0.48px;
+    width: 521px;
+    height: 75px;
+    margin-bottom: 34px;
+}
+
+.sectionWithText button {
+    width: 176px;
+    height: 60px;
+    border: 4px solid #1E1E1E;
+    background: #E9E3DC;
+    color: #1E1E1E;
+    font-family: "Bowlby One", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 96.896%;
+    text-transform: uppercase;
+}
+
+.sectionWithText button:hover {
+    box-shadow: 8px 8px 0 0 #000;
+}
+.sectionWithPhotos{
+    margin-bottom: 64px;
+}
+.sectionWithPhotos > div {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 64px;
+}
+
+.sectionWithPhotos > div > img {
+    width: 650px;
+    height: 753px;
+}
+
+.sectionWithPhotos > img {
+    width: 1340px;
+    height: 503px;
+}
+.order{
+    width: 895px;
+    color: #E9E3DC;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 101.896%;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+.getStatedBtn{
+    width: 196px;
+    height: 60px;
+    background-color: #D1EF53;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "Bowlby One", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 96.896%;
+    text-transform: uppercase;
+}
