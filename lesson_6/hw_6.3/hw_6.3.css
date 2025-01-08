@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+}
+
+span {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap {
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#first_block, #second_block {
+    width: 100%;
+    border: 1px solid rgb(219, 219, 219);
+}
+#first_block{
+    margin-bottom: 10px;
+}
+#second_block{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#instagram {
+    margin-top: 50px;
+    margin-bottom: 32px;
+    width: 175px;
+    height: 51px;
+}
+
+input {
+    width: 268px;
+    height: 38px;
+}
+
+input[type='text'], input[type='password'] {
+    background-color: #FAFAFA;
+    text-overflow: ellipsis;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    padding: 5px;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+input[type='text']:focus, input[type='password']:focus {
+    /*border:none;*/
+    outline:1px solid #737373;
+}
+
+input[type='submit'] {
+    background-color: #4cb5f9;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+
+}
+
+fieldset {
+    border: none;
+    width: 268px;
+    border-top: 1px solid rgb(219, 219, 219);
+    text-align: center;
+    color: #737373;
+    margin-bottom: 40px;
+}
+
+legend {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#logFacebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 352px;
+    margin-bottom: 24px;
+}
+
+#facebookLogo {
+    margin-right: 10px;
+}
+#forgotPassword{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+a.registration, #logFacebook > a {
+    color: #0095F6;
+    font-weight: bold;
+}
+
+#logFacebook > a:hover {
+    color: #000000;
+}
+
+#forgotPassword, a.content, span.registration, span.app {
+    color: #00376B;
+}
+
+p.content {
+    color: #737373;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+a.content:hover {
+    text-decoration: underline 1px;
+}
+
+span.app {
+    margin-bottom: 20px;
+}
+
+div.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#googlePlay{
+    margin-right: 10px;
+}
+.fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
