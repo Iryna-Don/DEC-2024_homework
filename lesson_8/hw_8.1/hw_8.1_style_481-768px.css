@@ -1,0 +1,29 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .wrap {
+        padding: 4.167vw 3.125vw;
+    }
+
+    .gallery {
+        grid-row-gap: 8.333vw;
+    }
+
+    .card {
+        width: 28.472vw;
+        height: 34.246vw;
+    }
+
+    .one, .four {
+        justify-self: start;
+    }
+
+    .three, .six {
+        justify-self: end;
+    }
+
+
+    img {
+        width: 28.472vw;
+        height: 21.355vw;
+    }
+
+}

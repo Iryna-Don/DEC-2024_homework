@@ -1,0 +1,21 @@
+@media screen and (max-width: 480px) {
+    .wrap {
+        padding: 8.533vw 4.267vw;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-row-gap: 10.667vw;
+    }
+
+    .card {
+        width: 91.467vw;
+        height: 88.533vw;
+    }
+
+    img {
+        width: 91.467vw;
+        height: 68.603vw;
+    }
+}
