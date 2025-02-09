@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product-image {
+    width: 200px;
+}
+
+.users-box {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+    justify-items: center;
+}
+
+.user-block {
+    width: 40vw;
+    border: 2px solid rebeccapurple;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: cornflowerblue;
+    opacity: 0.5;
+}
+
+.user-block:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.wrap {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2vw;
+    justify-items: center;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    border: 2px solid indianred;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: mediumvioletred;
+    opacity: 0.5;
+}
+
+.post-card:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+

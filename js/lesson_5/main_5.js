@@ -27,13 +27,6 @@ let consoleEveryElemOfArray = (array) => {
 
 // #59g0IsA
 // - створити функцію яка створює параграф з текстом та виводить його через document.write. Текст задати через аргумент
-let writeTextToDocument = () => {
-    for (const argument of arguments) {
-        document.write(`<p>${argument}</p>`)
-    }
-}
-
-// ================================== or ====================================================
 let writeTextToDoc = (text) => document.write(`<p>${text}</p>`);
 
 // #hOL6126

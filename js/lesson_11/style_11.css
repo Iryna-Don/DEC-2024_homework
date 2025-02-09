@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    padding: 2rem 3rem;
+}
+
+.wrapCarts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1vw;
+    row-gap: 6vh;
+    justify-items: center;
+}
+
+button {
+    margin-bottom: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #62aac9;
+    border: 1px solid darkblue;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.cart {
+    border-radius: 15px;
+    border: 1px solid #62aac9;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    padding: 25px;
+    overflow-y: scroll;
+    height: 570px;
+}
+
+span {
+    margin-right: 8px;
+}
+
+.productsInCart {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.id, .userId, .totalPrice, .totalProducts, .totalQuantity, .product_title {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.header {
+    background-color: #62aac9;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.product_id {
+    margin-top: 10px;
+}
+
+.product_thumbnail {
+    width: 250px;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+hr {
+    margin-top: 5px;
+}
+
+.product_title {
+    margin-bottom: 15px;
+}
+
+/*==========================*/
+.all {
+    margin-top: 4vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3vw;
+}
+
+.recipeDiv {
+    border: 1px solid #4B4864;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+.rating {
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    line-height: 0.75;
+}
+
+.rating_body {
+    position: relative;
+}
+
+.rating_body::before {
+    content: '☆☆☆☆☆';
+    display: block;
+}
+
+.rating_active {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.rating_active::before {
+    content: '★★★★★';
+    color: gold;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.rating_value {
+    font-size: 50%;
+    line-height: 1;
+    padding: 0 0 0 10px;
+}
